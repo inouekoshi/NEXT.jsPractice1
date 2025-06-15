@@ -24,7 +24,7 @@ export default function Page() {
             <a href="https://www.suzuka-ct.ac.jp/" className="text-blue-500">
               鈴鹿高専
             </a>
-            nice to meet you
+            Press the button below to log in!
           </p>
           <Link
             href="/login"
@@ -36,7 +36,7 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
           <Image
-            src="/hero-desktop.png"
+            src="/SNCTlogo.jpg"
             width={1000}
             height={760}
             className="hidden md:block"
